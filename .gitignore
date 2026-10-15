@@ -1,0 +1,42 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# ===== 运行产物 =====
+*.log
+*.jsonl
+output/
+
+# ===== 敏感信息（务必不要提交）=====
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+*_tokens*.json
+config.local.*
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 大文件 =====
+*.zip
+*.7z
+*.rar
+*.pptx
+*.docx
